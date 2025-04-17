@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.38.0",
+    "@mysten/sui": "^1.27.1",
+    "aptos": "^1.21.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.5",
+    "mongodb": "^6.15.0",
+    "mysql2": "^3.14.0",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.14.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "name": "non-evm-listener-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
